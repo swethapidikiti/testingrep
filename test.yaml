@@ -1,0 +1,29 @@
+version: "1"
+name: "test-yaml"
+description: Read Yaml File
+
+   
+packages:
+ ui:
+    abc:
+      npmVersion: 1.0.0
+    def:
+      npmVersion: 1.0.0
+    ghi:
+      npmVersion: 1.0.0
+ services:
+    jkl:
+      npmVersion: 1.0.0
+    mno:
+      npmVersion: 1.0.0
+    pqr:
+     npmVersion: 1.0.0
+    stu:
+     npmVersion: 1.0.0
+    wxyz:
+      npmVersion: 1.0.0
+    
+bundles:
+  - name: "test-bundle"
+    npmPatches:
+        description: "This package contains testing"
